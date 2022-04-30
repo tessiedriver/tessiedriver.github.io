@@ -1,0 +1,74 @@
+body{
+	margin:0;
+	padding:0;
+  background-color: white;
+}
+
+.outer{
+  text-align: center;
+}
+.topofpage{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  align-items: center;
+  justify-content:flex-start;
+  height:100px;
+}
+.logo{
+  max-width: 350px;
+  text-align: center;
+}
+.logo_img{
+  margin-top: 10px;
+  width:50%;
+}
+.page{
+	position:relative;
+	margin-top:0px;
+	background-color: #FFF;
+	max-width: 1200px;
+  width:100%;
+  display: inline-block;
+  text-align: left;
+	opacity:0.6;
+  height:100%;
+}
+
+.navbar{
+	position: sticky;
+	position: -webkit-sticky; /*Safari*/
+	top:0;
+	background-color: #EEECEC;
+	width:100%;
+	z-index:100;
+	flex-grow: 1;
+	display:flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  align-items: center;
+  justify-content:flex-start;
+}
+
+.tile{
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:800px;
+	font-size: 36px;
+}
+
+.tilebg1{
+	background-image: url("img/makeup.jpg");
+}
+
+.tilebg2{
+	background-image: url("img/lips.jpg");
+}
+
+.tilebg3{
+background-image: url("img/nails.jpg");
+}
+
+.tilebg4{
+	background-image: url("img/bella.jpg");
+}
