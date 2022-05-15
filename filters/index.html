@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Filters</title>
+
+	<style>
+     .my_filter{
+
+      -webkit-filter: hue-rotate(180deg) contrast(50%);
+      filter: hue-rotate(180deg);
+
+
+
+     }
+
+
+
+
+
+    .my_filter:hover{
+
+      animation: 3s myfilteranimation forwards;
+
+    }
+
+
+
+
+     @keyframes myfilteranimation{
+
+
+	      100%{
+	       -webkit-filter: hue-rotate(0deg) contrast(100%);
+	        filter: hue-rotate(0deg) contrast(100%);
+	       }
+
+     }
+
+
+
+
+	</style>
+</head>
+<body>
+
+<img class="my_filter" src="img/graffiti.jpg" alt="graffiti">
+
+</body>
+</html>
